@@ -1,4 +1,4 @@
-var gameState, playerCount, firebaseDB, quiz, question, player;
+var gameState = 0, playerCount, firebaseDB, quiz, question, player;
 
 function setup(){
   canvas = createCanvas(850,400);
