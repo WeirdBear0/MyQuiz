@@ -24,7 +24,7 @@ class Quiz{
           var playerCountRef = await database.ref('playerCount').once("value");
           if (playerCountRef.exists()) {
             playerCountRef = playerCountRef.val();
-            playerCountRef.getCount();
+            player.getCount();
           }
           question = new Question()
           question.display();
