@@ -1,6 +1,6 @@
 class Player {
     constructor() {
-        this.index = null;
+        this.index = 1;
         this.answer = 0;
         this.name = null;
     }
